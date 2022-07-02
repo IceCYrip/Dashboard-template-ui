@@ -1,0 +1,30 @@
+.sbCard {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  border-radius: 10px;
+  font-size: 2.3vh;
+  padding-top: 1.3vh;
+  padding-bottom: 1.3vh;
+  padding-left: 2vh;
+  padding-right: 2vh;
+  margin-bottom: 1.5vh;
+}
+
+.sbCard > label {
+  font-weight: 600;
+}
+.sbCard > label:hover {
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.sbCard:hover {
+  background-color: #0084ff;
+  color: white !important;
+  cursor: pointer;
+}
+
+.sbCard:hover .ico {
+  color: white !important;
+}

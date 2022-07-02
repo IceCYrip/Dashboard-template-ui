@@ -1,0 +1,53 @@
+.order-details {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  width: 50vw;
+  border-radius: 20px;
+  /* padding-left: 2vw;
+  padding-right: 2vw; */
+  padding-top: 2vw;
+  padding-bottom: 2vw;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+  padding-left: 2vw;
+  padding-right: 2vw;
+}
+
+.right {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.ant-select {
+  margin-left: 1.5vw;
+  font-size: 1.2vw;
+}
+
+.ant-select-selector {
+  border-radius: 10px !important;
+  width: 10vw !important;
+  height: 2.5vw !important;
+  padding: 4px 11px !important;
+}
+
+.ant-input {
+  border-radius: 10px;
+  font-size: 1.2vw;
+}
+
+.ico {
+  font-size: 1.5vw;
+}
+
+.orders {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
